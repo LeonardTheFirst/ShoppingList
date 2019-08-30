@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ShoppingList {
-    private ArrayList<Product> shoppingList = new ArrayList<Product>();
+    public ArrayList<Product> shoppingList = new ArrayList<Product>();
 
 
     public void addProduct() {

@@ -26,6 +26,7 @@ public class ShoppingListApp {
                     break;
                 case 4:
                     System.out.println("Eksport listy do pdf");
+                    Pdf.createPdf();
                     break;
                 case 5:
                     System.out.println("Zamkniecie aplikacji");
